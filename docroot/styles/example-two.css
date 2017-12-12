@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    background: #add8e6;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1em;
+
+
+}
+
+.wrapper > div {
+    padding: 2em;
+    background: #e9e9e9;
+    border: 1px solid black;
+}
+/*Try setting up grid-columns and grid-rows*/
+.one {
+
+}
+
+.two {
+
+}
+
+.three {
+
+
+}
+
+.four {
+
+}
+
+/* You need to use grid-template-areas below */
+.five {
+
+}
+
+.five > div {
+
+}
+
+.five-one {
+
+}
+
+.five-two {
+
+}
+
+.five-three {
+
+}
+
+.five-four {
+
+}
+
+.five-five {
+
+}
+
+.five-six {
+
+}

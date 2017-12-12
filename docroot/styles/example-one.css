@@ -1,0 +1,9 @@
+.wrapper {
+    background: #add8e6;
+}
+
+.wrapper > div {
+    padding: 2em;
+    background: #e9e9e9;
+    border: 1px solid black;
+}
