@@ -1,0 +1,1689 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/3336c6");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\000031}}
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\000034}}
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1em;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000311}}
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000314}}
+strong {
+  font-weight: bold;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000317}}
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000326}}
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000330}}
+:focus {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_normalize\.scss}line{font-family:\0000333}}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3356347, 2017-03-08T18:49:40-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AvenirLTStd-MediumOblique by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-mediumoblique/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ * Licensed pageviews: 3,500,000
+ *
+ * Webfont: AvenirLTStd-Medium by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/65-medium/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ * Licensed pageviews: 3,500,000
+ *
+ * Webfont: AvenirLTStd-Black by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/avenir/95-black/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * Licensed pageviews: 3,500,000
+ *
+ * Webfont: Intelo-Bold by Kastelov
+ * URL: http://www.myfonts.com/fonts/kastelov/intelo/bold/
+ * Copyright: Copyright &#x00A9; 2016 by Galin Kastelov. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ *
+ * Webfont: Intelo-ExtraBold by Kastelov
+ * URL: http://www.myfonts.com/fonts/kastelov/intelo/extra-bold/
+ * Copyright: Copyright &#x00A9; 2016 by Galin Kastelov. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3356347
+ *
+ * © 2017 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 300;
+  font-style: normal;
+  src: url("/themes/mdt2017/dist/fonts/3336C6_1_0.woff2") format("woff2"), url("/themes/mdt2017/dist/fonts/3336C6_1_0.woff") format("woff");
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 300;
+  font-style: italic;
+  src: url("/themes/mdt2017/dist/fonts/3336C6_0_0.woff2") format("woff2"), url("/themes/mdt2017/dist/fonts/3336C6_0_0.woff") format("woff");
+}
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 700;
+  font-style: normal;
+  src: url("/themes/mdt2017/dist/fonts/3336C6_2_0.woff2") format("woff2"), url("/themes/mdt2017/dist/fonts/3336C6_2_0.woff") format("woff");
+}
+@font-face {
+  font-family: 'Intelo';
+  font-weight: 700;
+  font-style: normal;
+  src: url("/themes/mdt2017/dist/fonts/3336C6_3_0.woff2") format("woff2"), url("/themes/mdt2017/dist/fonts/3336C6_3_0.woff") format("woff");
+}
+@font-face {
+  font-family: 'Intelo';
+  font-weight: 900;
+  font-style: normal;
+  src: url("/themes/mdt2017/dist/fonts/3336C6_4_0.woff2") format("woff2"), url("/themes/mdt2017/dist/fonts/3336C6_4_0.woff") format("woff");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003132}}
+body, p {
+  font-family: 'Avenir', 'museo-sans', 'Lucida Grande', 'Nimbus Sans L', Arial, sans-serif;
+  font-size: 1em;
+  letter-spacing: 0;
+  color: #333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003139}}
+p {
+  line-height: 1.75;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003143}}
+h1, h2, h3, h4, h5, h6, blockquote {
+  font-family: 'Intelo', 'museo-sans', 'Lucida Grande', 'Nimbus Sans L', Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003148}}
+h1, h2, h3, h4, h5, h6, blockquote, figure, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003152}}
+h1 {
+  font-size: 1.875em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003152}}
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003157}}
+h1.hero {
+  font-size: 2.5em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003157}}
+  h1.hero {
+    font-size: 1.625em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003164}}
+h2 {
+  font-size: 1.5em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003164}}
+  h2 {
+    font-size: 1.25em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003170}}
+h3 {
+  font-size: 1.25em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003170}}
+  h3 {
+    font-size: 1.125em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003176}}
+h4 {
+  font-size: 1.125em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003176}}
+  h4 {
+    font-size: 1em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003182}}
+h5 {
+  font-size: 0.875em;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003182}}
+  h5 {
+    font-size: 0.75em;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003188}}
+h6 {
+  font-family: 'Avenir', 'museo-sans', 'Lucida Grande', 'Nimbus Sans L', Arial, sans-serif;
+  font-size: 0.875em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_typography\.scss}line{font-family:\00003188}}
+  h6 {
+    font-size: 0.75em;
+  }
+}
+
+/**
+ * flex-box
+ *
+ * @param {string} $justify (center)
+ * @param {string} $align (center)
+ * @param {string} $direction (row)
+ * @param {string} $wrap (wrap)
+ */
+/**
+ * media-query-max
+ *
+ * @param {px} $max-width
+ * @param {list}{list} $styles-list
+ *
+ * Note styles-list format should be
+ * ((some-prop, some-props-value), (some-other-prop, some-other-props-value))
+ */
+/**
+ * media-query-min
+ *
+ * @param {px} $min-width
+ * @param {list}{list} $styles-list
+ */
+/**
+ * media-query-block
+ *
+ * Outputs an entire block inside a media query, similar to media-query mixin'
+ *
+ * @param {px} $max-width
+ * @param {list}{list} $block-list
+ *
+ * Note block-list format should be
+ * (
+ *     (some-block, (
+ *          (some-blocks-prop, some-blocks-props-value),
+ *      ),
+ *     (some-other-block, (
+ *          (some-other-blocks-prop, some-other-blocks-props-value),
+ *      ),
+ * )
+ */
+/**
+ * list-reset
+ *
+ * Resets list styles to have not circle for each item in the list and sets list item color
+ *
+ * @param {color} $font-color ($font-color-secondary)
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\000034}}
+.icon {
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000312}}
+.icon--circle {
+  border-radius: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000315}}
+.icon--circle--large {
+  width: 170px;
+  height: 170px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000320}}
+.icon--background-white {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000323}}
+.icon--gradient-hover:hover {
+  background-image: linear-gradient(-90deg, #EE286D 0%, #A502A1 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000326}}
+.icon--zoom-hover {
+  background-size: 234%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000329}}
+.icon--zoom-hover:hover {
+  background-size: 300%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000333}}
+.icon--download {
+  width: 20px;
+  height: 20px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-download.svg");
+  background-size: contain;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000339}}
+.icon--download:hover {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-download-hover.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000343}}
+.icon--search {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-search.svg");
+  height: 20px;
+  width: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000348}}
+.icon--demo-play {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-demo-play.svg");
+  height: 18px;
+  width: 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000353}}
+.icon--marketo-logo {
+  background-image: url("/themes/mdt2017/dist/images/marketo-logo.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000356}}
+.icon--hamburger-menu {
+  background-image: url("/themes/mdt2017/dist/images/hamburger-menu.svg");
+  width: 22px;
+  height: 17px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000361}}
+.icon--close-menu {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-close-menu.svg");
+  width: 20px;
+  height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000366}}
+.icon--dropdown-arrow-down {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-dropdown-arrow-down.svg");
+  width: 15px;
+  height: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000371}}
+.icon--dropdown-arrow-up {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-dropdown-arrow-up.svg");
+  width: 15px;
+  height: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000376}}
+.icon--discussions {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-discussions.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000379}}
+.icon--discussions:hover {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-discussions-hover.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000383}}
+.icon--marketo-knowledge {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketo-knowledge.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000386}}
+.icon--marketo-knowledge:hover {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketo-knowledge-hover.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000390}}
+.icon--solutions {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-solutions.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000393}}
+.icon--solutions--some-solution {
+  width: 70px;
+  height: 70px;
+  background-image: url("http://placehold.it/70x70?text=70x70");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\0000398}}
+.icon--solutions:hover {
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-solutions-hover.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003102}}
+.icon--launchpoint-partner {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #4A169B;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-launchpoint-partner.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003108}}
+.icon--digital-ads {
+  width: 59px;
+  height: 44px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-digital-ads.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003113}}
+.icon--predictive-content {
+  width: 60px;
+  height: 60px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-predictive-content.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003118}}
+.icon--abm {
+  width: 58px;
+  height: 57px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-abm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003123}}
+.icon--marketing-automation {
+  width: 61px;
+  height: 63px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketing-automation.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003128}}
+.icon--dg-marketing-automation {
+  width: 101px;
+  height: 102px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-dg-marketing-automation.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003133}}
+.icon--strategy-and-process {
+  width: 80px;
+  height: 130px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-strategy-and-process.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003138}}
+.icon--play-video {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  -webkit-mask-image: url("/themes/mdt2017/dist/images/icons/icon-play-video.svg");
+  mask-image: url("/themes/mdt2017/dist/images/icons/icon-play-video.svg");
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003149}}
+.icon--price-tag {
+  width: 66px;
+  height: 120px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-price-tag.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003155}}
+.icon--marketing-analytics_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketing-analytics_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003160}}
+.icon--marketing-analytics_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketing-analytics_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003165}}
+.icon--marketing-automation_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketing-automation_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003170}}
+.icon--marketing-automation_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketing-automation_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003175}}
+.icon--mobile_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-mobile_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003180}}
+.icon--mobile_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-mobile_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003185}}
+.icon--predictive-content_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-predictive-content_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003190}}
+.icon--predictive-content_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-predictive-content_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003195}}
+.icon--account-based-marketing_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-account-based-marketing_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003200}}
+.icon--account-based-marketing_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-account-based-marketing_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003205}}
+.icon--social_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-social_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003210}}
+.icon--social_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-social_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003215}}
+.icon--web_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-web_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003220}}
+.icon--web_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-web_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003225}}
+.icon--digital-ads_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-digital-ads_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003230}}
+.icon--digital-ads_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-digital-ads_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003235}}
+.icon--email_lg {
+  width: 170px;
+  height: 170px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-email_lg.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003240}}
+.icon--email_sm {
+  width: 58px;
+  height: 58px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-email_sm.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003246}}
+.icon--why-marketo {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-why-marketo.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003251}}
+.icon--launchpoint {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-launchpoint.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003256}}
+.icon--leadership {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-leadership.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003261}}
+.icon--marketo-university {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-marketo-university.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003266}}
+.icon--my-resources {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-my-resources.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003271}}
+.icon--news {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-news.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003276}}
+.icon--services-support {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-services-support.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003281}}
+.icon--all-resources {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-all-resources.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003286}}
+.icon--case-study {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-case-study.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003291}}
+.icon--close {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-close.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003296}}
+.icon--community {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-community.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003301}}
+.icon--company {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-company.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003306}}
+.icon--engaged {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-engaged.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003311}}
+.icon--engagement-platform {
+  width: 90px;
+  height: 90px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-engagement-platform.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003318}}
+.icon--app-detail_app_email {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_app_email.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003321}}
+.icon--app-detail_app_marketing-automation {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_app_marketing-automation.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003324}}
+.icon--app-detail_app_mobile {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_app_mobile.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003327}}
+.icon--app-detail_app_social {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_app_social.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003330}}
+.icon--app-detail_app_web {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_app_web.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003333}}
+.icon--app-detail_cross-channel-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_cross-channel-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003336}}
+.icon--app-detail_digital-ads {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_digital-ads.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003339}}
+.icon--app-detail_get-ebook {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_get-ebook.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003342}}
+.icon--app-detail_lead-management {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_lead-management.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003345}}
+.icon--app-detail_life-cycle-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/app-detail_life-cycle-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003348}}
+.icon--app_deselected_account-based-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_account-based-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003351}}
+.icon--app_deselected_digital-ads {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_digital-ads.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003354}}
+.icon--app_deselected_email {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_email.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003357}}
+.icon--app_deselected_marketing-analysis {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_marketing-analysis.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003360}}
+.icon--app_deselected_marketing-automation {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_marketing-automation.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003363}}
+.icon--app_deselected_mobile {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_mobile.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003366}}
+.icon--app_deselected_predictive-content {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_predictive-content.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003369}}
+.icon--app_deselected_web {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_deselected_web.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003372}}
+.icon--app_selected_account-based-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_account-based-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003375}}
+.icon--app_selected_digital-ads {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_digital-ads.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003378}}
+.icon--app_selected_email {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_email.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003381}}
+.icon--app_selected_marketing-analysis {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_marketing-analysis.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003384}}
+.icon--app_selected_marketing-automation {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_marketing-automation.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003387}}
+.icon--app_selected_mobile {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_mobile.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003390}}
+.icon--app_selected_predictive-content {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_predictive-content.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003393}}
+.icon--app_selected_social {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_social.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003396}}
+.icon--app_selected_web {
+  background-image: url("/themes/mdt2017/dist/images/icons/app_selected_web.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003399}}
+.icon--community_section1_discussion {
+  background-image: url("/themes/mdt2017/dist/images/icons/community_section1_discussion.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003402}}
+.icon--community_section2_knowledge {
+  background-image: url("/themes/mdt2017/dist/images/icons/community_section2_knowledge.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003405}}
+.icon--community_section3_how-help {
+  background-image: url("/themes/mdt2017/dist/images/icons/community_section3_how-help.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003408}}
+.icon--engagement-platform_pricing {
+  background-image: url("/themes/mdt2017/dist/images/icons/engagement-platform_pricing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003411}}
+.icon--engagement-platform_use-cases_cross-channel-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/engagement-platform_use-cases_cross-channel-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003414}}
+.icon--engagement-platform_use-cases_lead-management {
+  background-image: url("/themes/mdt2017/dist/images/icons/engagement-platform_use-cases_lead-management.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003417}}
+.icon--engagement-platform_use-cases_life-cycle-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/engagement-platform_use-cases_life-cycle-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003420}}
+.icon--hp_get-info_event {
+  background-image: url("/themes/mdt2017/dist/images/icons/hp_get-info_event.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003423}}
+.icon--hp_get-info_play-video {
+  background-image: url("/themes/mdt2017/dist/images/icons/hp_get-info_play-video.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003426}}
+.icon--my-resources_connect_1-discussion {
+  background-image: url("/themes/mdt2017/dist/images/icons/my-resources_connect_1-discussion.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003429}}
+.icon--my-resources_connect_2-marketing-knowledge {
+  background-image: url("/themes/mdt2017/dist/images/icons/my-resources_connect_2-marketing-knowledge.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003432}}
+.icon--my-resources_connect_3-get-info {
+  background-image: url("/themes/mdt2017/dist/images/icons/my-resources_connect_3-get-info.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003435}}
+.icon--nav_my-resources_all-resources {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_my-resources_all-resources.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003438}}
+.icon--nav_my-resources_community {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_my-resources_community.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003441}}
+.icon--nav_my-resources_launchpoint {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_my-resources_launchpoint.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003444}}
+.icon--nav_my-resources_my-resources {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_my-resources_my-resources.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003447}}
+.icon--nav_my-resources_unversity {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_my-resources_unversity.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003450}}
+.icon--nav_solutions_engagement-platform {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_solutions_engagement-platform.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003453}}
+.icon--nav_why-marketo_case-studies {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_case-studies.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003456}}
+.icon--nav_why-marketo_company {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_company.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003459}}
+.icon--nav_why-marketo_leadership {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_leadership.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003462}}
+.icon--nav_why-marketo_news {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_news.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003465}}
+.icon--nav_why-marketo_services-support {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_services-support.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003468}}
+.icon--nav_why-marketo_why-marketo {
+  background-image: url("/themes/mdt2017/dist/images/icons/nav_why-marketo_why-marketo.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003471}}
+.icon--pricing-landing_consumer-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/pricing-landing_consumer-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003474}}
+.icon--pricing-landing_customer-base-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/pricing-landing_customer-base-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003477}}
+.icon--pricing-landing_email-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/pricing-landing_email-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003480}}
+.icon--pricing-landing_lead-management {
+  background-image: url("/themes/mdt2017/dist/images/icons/pricing-landing_lead-management.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003483}}
+.icon--pricing-landing_mobile-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/pricing-landing_mobile-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003486}}
+.icon--solutions_account-based-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_account-based-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003489}}
+.icon--solutions_cross-channel-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_cross-channel-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003492}}
+.icon--solutions_email-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_email-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003495}}
+.icon--solutions_industries_financial-services {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_industries_financial-services.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003498}}
+.icon--solutions_industries_manufacturing {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_industries_manufacturing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003501}}
+.icon--solutions_industries_technology {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_industries_technology.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003504}}
+.icon--solutions_lead-management {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_lead-management.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003507}}
+.icon--solutions_lifecycle-marketing {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_lifecycle-marketing.svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_icons\.scss}line{font-family:\00003510}}
+.icon--solutions_marketing-automation {
+  background-image: url("/themes/mdt2017/dist/images/icons/solutions_marketing-automation.svg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000324}}
+.mdt-select {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  height: 2.6em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000334}}
+.mdt-select:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000324}}
+  .mdt-select {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000339}}
+.mdt-select__option {
+  position: absolute;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  display: block;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000346}}
+.mdt-select__option:not(.mdt-select__option--selected) {
+  padding: 0.7em;
+  background-color: #ffffff;
+  color: #4A1691;
+  line-height: 1;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.24);
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000354}}
+.mdt-select__option:not(.mdt-select__option--selected):hover {
+  background-color: #F2F2F2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000357}}
+.mdt-select__option:not(.mdt-select__option--selected):last-of-type {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000362}}
+.mdt-select__option--selected {
+  font-size: 1.625em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: solid 4px #AD19A9;
+  border-image: linear-gradient(90deg, #4A169B 0%, #AF01AB 100%) 1;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000362}}
+  .mdt-select__option--selected {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    padding-right: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000376}}
+.mdt-select__option--selected:after {
+  position: absolute;
+  top: 0.3em;
+  right: -0.8em;
+  content: '';
+  width: 0.3em;
+  height: 0.3em;
+  border: solid #ffffff;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000376}}
+  .mdt-select__option--selected:after {
+    right: 0.25em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000394}}
+.mdt-select--closed .mdt-select__option {
+  display: none;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\0000398}}
+.mdt-select--closed .mdt-select__option--selected {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\00003105}}
+.mdt-select__in-component .mdt-select__option--selected {
+  color: #4A169B;
+  font-size: 1.625em;
+  line-height: 1em;
+  margin-top: 0.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/_mdtSelect\.scss}line{font-family:\00003111}}
+.mdt-select__in-component .mdt-select__option--selected:after {
+  width: 0.25em;
+  height: 0.25em;
+  border-color: #4A169B;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000367}}
+.background--default {
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000369}}
+.background--default h1,
+.background--default h2,
+.background--default h3,
+.background--default h4,
+.background--default h5,
+.background--default h6 {
+  color: #100033;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000379}}
+.background--light-grey {
+  background-color: #F1EEEE;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000381}}
+.background--light-grey h1,
+.background--light-grey h2,
+.background--light-grey h3,
+.background--light-grey h4,
+.background--light-grey h5,
+.background--light-grey h6 {
+  color: #100033;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000391}}
+.background--dark-grey {
+  background-color: #E8E8E9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000395}}
+.background--dark-purple {
+  background-color: #4A1691;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\0000399}}
+.background--darker-purple {
+  background-color: #220655;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003103}}
+.background--gradient-navy {
+  background-image: linear-gradient(-180deg, #100232 0%, #001E7C 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003105}}
+.background--gradient-navy > h1,
+.background--gradient-navy > h2,
+.background--gradient-navy > h3,
+.background--gradient-navy > h4,
+.background--gradient-navy > h5,
+.background--gradient-navy > h6,
+.background--gradient-navy > p {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003116}}
+.background--gradient-hot-pink {
+  background-image: linear-gradient(-269deg, #EE286D 0%, #A502A1 100%);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003120}}
+.background--gradient-purple {
+  background-image: linear-gradient(90deg, #4A169B 0%, #AF01AB 100%);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003124}}
+.background--hot-pink {
+  background-color: #EC306E;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003126}}
+.background--hot-pink > h1,
+.background--hot-pink > h2,
+.background--hot-pink > h3,
+.background--hot-pink > h4,
+.background--hot-pink > h5,
+.background--hot-pink > h6,
+.background--hot-pink > p {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003137}}
+.background--purple {
+  background-color: #4A2099;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003139}}
+.background--purple > h1,
+.background--purple > h2,
+.background--purple > h3,
+.background--purple > h4,
+.background--purple > h5,
+.background--purple > h6,
+.background--purple > p {
+  color: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003150}}
+.with-separator {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003153}}
+.with-separator:after {
+  bottom: -14px;
+  left: 0;
+  position: absolute;
+  content: '';
+  width: 38px;
+  height: 4px;
+  background-color: #100232;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003162}}
+.with-separator__center:after {
+  right: 50%;
+  bottom: -14px;
+  left: 50%;
+  position: absolute;
+  content: '';
+  width: 38px;
+  height: 4px;
+  background-color: #4A169B;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003175}}
+.link {
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003179}}
+.link:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003182}}
+.link--primary {
+  color: #EF2B6D;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003185}}
+.link--secondary {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003191}}
+.external-link {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003194}}
+.external-link:after {
+  top: -8px;
+  right: -10px;
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #EF2B6D;
+  transform: rotate(-45deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003209}}
+.view-more {
+  position: relative;
+  font-size: 1em;
+  font-weight: 700;
+  color: #EF2B6D;
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003217}}
+.view-more:hover {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003220}}
+.view-more:after {
+  top: 0;
+  right: -14px;
+  position: absolute;
+  padding: 3px;
+  content: '';
+  width: 0;
+  height: 0;
+  border: solid #EF2B6D;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003232}}
+.view-more--uncollapsed:after {
+  top: 4px;
+  transform: rotate(-135deg);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003241}}
+.button {
+  padding: 18px 40px;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: #000;
+  min-width: 200px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  transition: all 0.2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003255}}
+.button__outlined {
+  padding: 15px 40px;
+  color: #FFF;
+  border: 3px solid #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003260}}
+.button__outlined:hover {
+  color: #4A1F98;
+  background-color: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003266}}
+.button--primary {
+  color: #FFF;
+  background-color: #EC306E;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003270}}
+.button--primary:hover {
+  background-color: #d51454;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003275}}
+.button--secondary {
+  color: #4A1F98;
+  background-color: #0FC0AD;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003278}}
+.button--secondary:hover {
+  background-color: #0b9182;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003283}}
+.button__gradient {
+  color: #FFF;
+  background-image: linear-gradient(-213deg, #A502A1 0%, #EE286D 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003287}}
+.button__gradient:hover {
+  background: #4A1F98;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003293}}
+.button__watch-video {
+  text-indent: -15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003296}}
+.button__watch-video:after {
+  top: 15px;
+  right: 30px;
+  position: absolute;
+  content: '';
+  width: 19px;
+  height: 19px;
+  background-image: url("/themes/mdt2017/dist/images/icons/icon-watch-video.svg");
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003309}}
+.image-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003313}}
+.image-cover--gradient-overlay {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003315}}
+.image-cover--gradient-overlay--has-video {
+  position: absolute;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003319}}
+.image-cover--gradient-overlay--primary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background-image: linear-gradient(-90deg, #4A169B 0%, #AF01AB 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003331}}
+.image-cover--gradient-overlay--secondary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background-image: linear-gradient(90deg, #4A169B 0%, #AF01AB 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003343}}
+.image-cover--gradient-overlay--tertiary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background-image: linear-gradient(90deg, #A502A1 0%, #E52B6D 100%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003355}}
+.image-cover--solid {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003358}}
+.image-cover--solid--primary:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  background-color: #4A169B;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003372}}
+#layout-wrapper {
+  background: linear-gradient(-4deg, #4A2099 3%, #100333 100%);
+  margin-bottom: -15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003377}}
+.no-scroll {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003380}}
+.no-scroll__vertical {
+  overflow-y: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003383}}
+.no-scroll__horizontal {
+  overflow-x: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003388}}
+.after-triangle, .hello-banner__content a:after {
+  top: -8px;
+  right: -10px;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 0;
+  border-color: transparent #EF2B6D transparent transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003400}}
+.hello-banner {
+  height: 30px;
+  line-height: 30px;
+  background: #0e0037;
+  color: #9e96ab;
+  padding: 20px 0px;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003411}}
+.hello-banner__content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex: 1;
+  flex: 1;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-width: 940px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003417}}
+.hello-banner__content__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003422}}
+.hello-banner__content > div {
+  border-left: 2px solid #9e96ab;
+  padding: 0px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003426}}
+.hello-banner__content > div:first-child {
+  border-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003430}}
+.hello-banner__content > div:last-child {
+  margin: 0 auto !important;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003436}}
+.hello-banner__content a {
+  color: #9e96ab;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003448}}
+.default-page-wrap {
+  background: #fff;
+  padding: 20px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003452}}
+.default-page-wrap .default-page-content {
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 940px;
+  margin: 2em auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003457}}
+.default-page-wrap .default-page-content h1 {
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003462}}
+.default-page-wrap .default-page-content ul li {
+  margin: 10px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003467}}
+.default-page-wrap .default-page-content fieldset {
+  border: none;
+  padding: 20px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003472}}
+.default-page-wrap .default-page-content div.field {
+  margin: 15px 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003475}}
+.default-page-wrap .default-page-content div.field div.middleColumn {
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/base\.scss}line{font-family:\00003479}}
+.default-page-wrap .default-page-content div.field input[type=text], .default-page-wrap .default-page-content div.field input[type=password] {
+  height: 20px;
+  line-height: 20px;
+  padding: 5px;
+  min-width: 200px;
+  border: 1px solid #999999;
+  background-image: none !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000316}}
+.inspiration-component {
+  background: #e8e8e9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 60px 0 60px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000321}}
+.inspiration-component section {
+  max-width: 960px;
+  background: #e8e8e9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000326}}
+.inspiration-component section div {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000329}}
+.inspiration-component section a {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000333}}
+.inspiration-component section h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #100033;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000333}}
+  .inspiration-component section h2 {
+    font-size: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000341}}
+.inspiration-component section h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000341}}
+  .inspiration-component section h1 {
+    font-size: 1.625em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000348}}
+.inspiration-component section h5 {
+  margin-top: 2.5px;
+  font-size: 1em;
+  color: #a4a5a8;
+  letter-spacing: 1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000354}}
+.inspiration-component section p {
+  font-size: 1.125em;
+  padding-right: 20px;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000354}}
+  .inspiration-component section p {
+    font-size: 1em;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000361}}
+.inspiration-component section .content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000361}}
+  .inspiration-component section .content-wrapper {
+    width: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000365}}
+.inspiration-component section .tertiary-content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex: 1;
+  flex: 1;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000371}}
+.inspiration-component section .text-holder {
+  margin: 20px 0 20px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000373}}
+.inspiration-component section .text-holder div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 10px;
+  padding: 5px 0 5px 0;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000378}}
+.inspiration-component section .text-holder div .icon {
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000380}}
+.inspiration-component section .text-holder div .icon h5 {
+  margin-top: 2.5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000386}}
+.inspiration-component section .text-holder .item-name {
+  margin-top: 10px;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000394}}
+.featured-content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  background: #fff;
+  width: 50%;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000394}}
+  .featured-content-wrapper {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003102}}
+.featured-content-wrapper h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #100033;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\0000394}}
+  .featured-content-wrapper {
+    margin: 0 0 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003113}}
+.secondary-content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003113}}
+  .secondary-content-wrapper {
+    width: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003119}}
+.secondary-content-wrapper__main-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003126}}
+.header-bottom-border {
+  width: 4%;
+  border-bottom: 4px solid #001e7c;
+  margin: 20px 0 40px;
+}
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003126}}
+  .header-bottom-border {
+    width: 10%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003135}}
+.smallest-content-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003139}}
+.smallest-content-wrapper:first-child {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 37.5em) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003144}}
+  .inspiration-main-wrapper {
+    margin: 0 20px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003149}}
+.inspiration-main-wrapper a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003154}}
+.--tile-hover-effect {
+  transition: all 0.2s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jslavin\/Projects\/WWW\/docroot\/themes\/mdt2017\/src\/styles\/InspirationComponent\.scss}line{font-family:\00003157}}
+.--tile-hover-effect:hover {
+  box-shadow: 0 2px 1px 0 rgba(145, 147, 148, 0.8);
+  background-color: #f2f2f2;
+}
